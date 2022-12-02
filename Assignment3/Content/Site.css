@@ -40,3 +40,30 @@ textarea {
     margin: 10px 0;
 }
 
+form{
+    margin-top: 20px;
+}
+
+.item1,.item2, .item3 ,.item4, .item5 ,.item6{
+    margin-bottom:10px;
+}
+
+.item1 > input{
+    margin-left: 50px;
+}
+
+.item2 > input{
+    margin-left:52px;
+}
+
+.item4 > input {
+    margin-left: 60px;
+}
+
+.item5 > input {
+    margin-left: 80px;
+}
+
+.item6 > input{
+    margin: 10px 0 0 130px;
+}
