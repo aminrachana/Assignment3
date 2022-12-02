@@ -2,16 +2,37 @@
 @{
     ViewBag.Title = "Show";
 }
+<style>
+    .dellink {
+        float: right;
+        color: #dd1111;
+    }
 
-<a class="navlink" href="/Teacher/List">Back to Teachers</a>
+    .navlink {
+        float: left;
+        margin: 0 auto;
+    }
+
+    nav {
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+</style>
+
+
 
 <div id="containershow">
+    <nav>
+        <a class="navlink" href="/Teacher/List">Back to Teachers</a>
+        <a class="dellink" href="/Teacher/DeleteConfirm/@Model.TeacherId">Delete</a>
 
-    <h2 style=" color:darkred";>@Model.TeacherFname @Model.TeacherLname</h2>
-    
+    </nav>
+
+    <h2 style=" color:darkred" ;>@Model.TeacherFname @Model.TeacherLname</h2>
+
     <p><strong>Teacher Id:</strong> @Model.TeacherId</p>
     <p><strong>Employee Number:</strong> @Model.EmployeeNumber</p>
     <p><strong>Hire Date:</strong> @Model.HireDate</p>
     <p><strong>Salary:</strong> @Model.Salary</p>
-    
+
 </div>

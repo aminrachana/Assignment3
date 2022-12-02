@@ -5,11 +5,17 @@
 
 
 <div id="containerlist">
+
+    <nav>
+        <a class="navlink" href="/Teacher/New " style="float:left; margin:0 auto;">New Teacher</a>
+    </nav>
+    <br />
+
     <h2>List of Teachers</h2>
 
     <form action="/Teacher/List" method="GET">
-        <input type="text" name="SearchKey"/>
-        <input type="submit" value="Search"/>
+        <input type="text" name="SearchKey" />
+        <input type="submit" value="Search" />
     </form>
 
     @foreach (var teacher in Model)

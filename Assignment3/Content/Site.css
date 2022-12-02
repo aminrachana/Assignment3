@@ -17,8 +17,6 @@ textarea {
 }
 
 .navlink {
-    text-align: right;
-    margin-top: 30px;
     float: right;
 }
 
@@ -28,8 +26,8 @@ textarea {
     border-color: #fff;
 }
 
-.container{
-    background-color: #d7e7eb;
+.container body-content{
+    background-color: #fff;
 }
 
 #containerlist, #containershow {
