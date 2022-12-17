@@ -11,6 +11,7 @@
     .navlink {
         float: left;
         margin: 0 auto;
+        margin-right: 15px;
     }
 
     nav {
@@ -25,7 +26,7 @@
     <nav>
         <a class="navlink" href="/Teacher/List">Back to Teachers</a>
         <a class="dellink" href="/Teacher/DeleteConfirm/@Model.TeacherId">Delete</a>
-
+        <a class="navlink" href="/Teacher/Update/@Model.TeacherId">Update</a>
     </nav>
 
     <h2 style=" color:darkred" ;>@Model.TeacherFname @Model.TeacherLname</h2>
